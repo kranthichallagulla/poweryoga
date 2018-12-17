@@ -1,0 +1,15 @@
+img{
+    float:right;
+    padding-right: 0px;
+    margin-right: 0px;
+    display: flex;
+}
+#hero p{
+    font-size: 17px;
+    height: auto;
+}
+.container{
+    background-color: transparent;
+    width: 50%;
+    height: 50%;
+}
