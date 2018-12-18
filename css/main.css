@@ -58,38 +58,51 @@ ul{
 #column{
     background-image: url("../img/img3.jpg");
     background-repeat: no-repeat;
-    background-image: reverse;
     width: 100%;
     background-image: center;
     background-color:yellowgreen;
-    margin-left: 500px;
-    height: 1200px;
-}
-
-
-.col dt{
-height :300px;
-width: 500px;
-text-align: left;
-position: relative;
-right: 300px;
-background-color:yellowgreen;
-}
-.col dd{
-    float: right;  
-    margin-right: 10px; 
-    overflow: hidden;
-    text-align: right;
+    height: 600px;
     
-}
-.col a{
-    text-decoration: none;
 }
 .final img{
     width:100%;
     height: 500px;
 }
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  
+  }
+  .box1{
+   flex-grow:1;
+   width: 25%;
+   background-color:white;
+  }
+  .box2{
+   flex-grow:4;
+   width: 50%;
+   margin-left: 10px;
+   margin-right: 10px;
+   background-color:white;
+  }
+  .box3{
+   flex-grow:1;
+   width: 25%;
+   background-color: white;
+  }
+  .flex-container >section{
+    flex-basis: auto;
+  }
+footer nav{
+    float:right;
+ }
+nav li{
+     background: white;
+     display: inline;
 
+ }
 /*kranthi*/
 ::-moz-selection {
     background: #b3d4fc;
